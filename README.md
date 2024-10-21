@@ -23,6 +23,6 @@ Link:
 
 
 Image on repo:  
-![image description](./file-name.jpg)
+![image description]([./file-name.jpg](https://github.com/Sai-Nishit/MidTerm/blob/main/Graduation.png))
 
 
