@@ -18,9 +18,6 @@ Yes, this project connects closely to the readings we've done on interactive des
 Also, the way Kanye West’s music blends with Takashi Murakami’s artwork ties into our readings on how popular culture and postmodern art come together to create bold, boundary-pushing designs. The idea of using animation to guide users through an experience or communicate deeper meanings is something we've learned about in terms of motion and narrative in design. By applying these ideas to this project, I'm directly pulling from the theoretical frameworks we've covered in class.
 
 
-Image with url:  
-![image description](https://dm-gy-6063-2024f-b.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
-
 
 
 Image on repo:  
