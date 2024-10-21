@@ -20,7 +20,7 @@ Also, the way Kanye West’s music blends with Takashi Murakami’s artwork ties
 
 
 
-Graduation Album Cover:  
+## Graduation Album Cover:  
 ![image description](Graduation.png)
 
 
