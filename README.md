@@ -18,11 +18,12 @@ Yes, this project connects closely to the readings we've done on interactive des
 Also, the way Kanye West’s music blends with Takashi Murakami’s artwork ties into our readings on how popular culture and postmodern art come together to create bold, boundary-pushing designs. The idea of using animation to guide users through an experience or communicate deeper meanings is something we've learned about in terms of motion and narrative in design. By applying these ideas to this project, I'm directly pulling from the theoretical frameworks we've covered in class.
 
 
-Link:  
-[]([https://www.example.com](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FKanye%2Fcomments%2Fvqmc4h%2Five_used_an_ai_to_expand_the_album_cover_art_for%2F&psig=AOvVaw3jqF7ZZTVzI4pxKuAHQRD5&ust=1729616165729000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOD097f4n4kDFQAAAAAdAAAAABAI))
+Image with url:  
+![image description](https://dm-gy-6063-2024f-b.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
+
 
 
 Image on repo:  
-![image description]([./file-name.jpg](https://github.com/Sai-Nishit/MidTerm/blob/main/Graduation.png))
+![image description](Graduation.png)
 
 
