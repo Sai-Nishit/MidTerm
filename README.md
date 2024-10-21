@@ -1,78 +1,28 @@
-# p5.js Template
-
-This is a README file that can be used to describe and document your assignment.
-
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
-
----
----
-
 # MileStone 1
-# MidTerm-
 
-1. What book, album or movie did you choose? What is it about?
-   I have chosen the album Graduation by Kanye West. Released in 2007, it is the third studio album by Kanye West, known for its genre-blending sound, which includes elements of hip-hop, electronic music, and stadium anthems. Thematically, Graduation explores personal growth, success, fame, and Kanye’s evolution as an artist. The cover art, designed by Japanese contemporary artist Takashi Murakami, is vibrant and surreal, featuring Kanye’s mascot, the “Dropout Bear,” launching into the sky, symbolizing growth and moving to the next level in life.
+##1. What book, album or movie did you choose? What is it about?
+I chose Kanye West’s Graduation album, which came out in 2007. It’s his third studio album, and it’s known for blending different genres like hip-hop, electronic music, and stadium anthems. The album dives into themes of personal growth, success, fame, and Kanye’s journey as an artist evolving over time. The cover art, created by Japanese artist Takashi Murakami, is colorful and surreal. It features Kanye’s iconic “Dropout Bear” mascot, shown launching into the sky, which symbolizes moving forward and reaching new heights in life.
 
-2. What aspect of the book will you include in your cover?
-   In my project, I will include interactive animations of the elements in the original Graduation cover art. Each element, like the “Dropout Bear,” flying graduation caps, and abstract visuals, will have interactive features. Users will be able to click on specific parts of the image to trigger animations, such as the bear floating into the sky or objects pulsing and moving. Additionally, facts and background information about these elements, the creative process behind them, and their significance in Kanye’s journey will appear as pop-ups or overlays. This combination of movement and storytelling will make the cover both visually engaging and informative, mirroring the album’s themes of growth, success, and evolution.
+##2. What aspect of the book will you include in your cover?
+For my project, I’m going to include interactive animations of different elements from the Graduation cover art. Things like the “Dropout Bear,” flying graduation caps, and abstract visuals will all have features you can interact with. Users will be able to click on parts of the image to make them animate, like the bear floating up into the sky or other objects pulsing with movement. Along with these animations, there will be pop-ups or overlays sharing interesting facts and background info about the artwork, the creative process behind it, and how these elements tie into Kanye’s journey. The mix of animation and storytelling will make the cover both fun to engage with and informative, reflecting the themes of growth, success, and evolution in the album.
 
-3. Is it interactive? time-based? both?
-   The cover will be both interactive and time-based. Users can interact with different elements of the image by clicking or hovering over them, which will trigger animations and reveal facts about those elements. Additionally, there will be time-based aspects, such as subtle animations that evolve over time, like shifting colors or slow movements of characters and objects, to give the cover a dynamic and evolving feel. This blend of interactivity and time-based transitions will add depth to the experience and reflect the themes of transformation and growth present in the Graduation album.
+##3. Is it interactive? time-based? both?
+The cover will be both interactive and time-based. Users can click or hover over different parts of the image to trigger animations and see facts pop up about each element. There will also be subtle time-based features, like colors that shift or characters that slowly move, making the cover feel dynamic and always changing. This combination of interaction and timed animations will make the experience more engaging and reflect the themes of transformation and growth that are central to the Graduation album.
 
-4. What ideas would you like to explore or experiment with?
-   I would like to explore the integration of interactive animations with informative content. Specifically, I want to experiment with adding background information about the image and the inspiration behind the Graduation album cover. As users interact with different elements of the image, they will trigger animations while simultaneously revealing facts about the creation process, the artistic collaboration with Takashi Murakami, and the symbolism of various elements. This blend of visuals, animation, and contextual information will create a more immersive experience, allowing users to not only engage with the artwork but also learn about its significance.
+##4. What ideas would you like to explore or experiment with?  
+I want to explore how to combine interactive animations with informative content. Specifically, I’d like to experiment with adding background details about the image and the inspiration behind the Graduation album cover. As users interact with different parts of the image, animations will play while also revealing facts about how the cover was created, Kanye’s collaboration with artist Takashi Murakami, and the meaning behind the different elements. This mix of visuals, animation, and information will make the experience more immersive, letting users not only engage with the artwork but also learn about its significance.
 
-5. Are there aspects of your project that are related to any of the readings we’ve done?
-   Yes, the project closely relates to the readings we’ve done on interactive design, visual storytelling, and the relationship between user engagement and art. The way I plan to incorporate interactive elements and animations into the album cover mirrors discussions we've had about how media can be designed to invite users to engage more deeply with content. The use of visuals, movement, and interactivity to tell a story, along with providing background information on the Graduation album, connects to the theories we’ve explored regarding how art and design can be used not just to captivate but to inform and immerse users.
+##5. Are there aspects of your project that are related to any of the readings we’ve done?
+Yes, this project connects closely to the readings we've done on interactive design, visual storytelling, and how art engages users. The way I plan to include interactive elements and animations in the album cover reflects what we've discussed about how media can be designed to invite people to engage more deeply. Using visuals, movement, and interactivity to tell a story—while also providing background info about the Graduation album—relates to the theories we've studied on how art can be both captivating and informative, drawing people into a more immersive experience.
 
-Additionally, the blending of Kanye West’s music and Takashi Murakami’s artwork ties into our readings on how popular culture and postmodern art intersect to create dynamic, boundary-pushing designs. The concepts of using animation to guide users through an experience or convey deeper meanings are aligned with what we’ve studied about motion and narrative in design. By applying these ideas to the project, I’m drawing directly from the theoretical frameworks covered in our readings.
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
+Also, the way Kanye West’s music blends with Takashi Murakami’s artwork ties into our readings on how popular culture and postmodern art come together to create bold, boundary-pushing designs. The idea of using animation to guide users through an experience or communicate deeper meanings is something we've learned about in terms of motion and narrative in design. By applying these ideas to this project, I'm directly pulling from the theoretical frameworks we've covered in class.
 
-**bold text**
-
-*italicized text*
-
-~~strikethrough text~~
-
-Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
 
 Link:  
-[linked text](https://www.example.com)
-
-
-Image with url:  
-![image description](https://dm-gy-6063-2024f-b.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
+[]([https://www.example.com](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FKanye%2Fcomments%2Fvqmc4h%2Five_used_an_ai_to_expand_the_album_cover_art_for%2F&psig=AOvVaw3jqF7ZZTVzI4pxKuAHQRD5&ust=1729616165729000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOD097f4n4kDFQAAAAAdAAAAABAI))
 
 
 Image on repo:  
 ![image description](./file-name.jpg)
 
 
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
