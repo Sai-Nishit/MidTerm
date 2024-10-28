@@ -1,4 +1,8 @@
 # MileStone 2
+
+## what I’ve done this week
+This week, I made good progress on my interactive album cover project. I started by outlining the main elements and drafting the pseudocode to make sure I covered all the essential features, like interactivity, animations, and pop-up info. I also refined the project’s structure to meet the assignment requirements, adding custom functions, arrays, loops, and conditional statements where needed. I spent some time brainstorming how to make the experience more immersive by including background details and time-based animations that match the themes of the *Graduation* album. 
+
 ## Pseudo-code
 
 ### Initialize the main interactive canvas
@@ -71,7 +75,7 @@ function endProject():
 ### Start project
 initializeProject()
 
-## Pseudo-code Explanation
+## Pseudo-code Explanation (description of the files, classes, objects or arrays you will use)
 
 ### 1. initializeCanvas():- 
 Purpose: Sets up the main canvas where all visual elements will be displayed.
