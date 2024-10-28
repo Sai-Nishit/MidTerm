@@ -1,3 +1,170 @@
+# MileStone 2
+## Pseudo-code
+
+### Initialize the main interactive canvas
+initializeCanvas()
+
+### Define elements array with objects, each containing element details and associated information
+coverElements = [
+    { "name": "DropoutBear", "info": "Symbol of Kanye’s journey and growth", "animation": "float" },
+    { "name": "GraduationCap", "info": "Represents the theme of moving forward", "animation": "spin" },
+    { "name": "Background", "info": "Abstract elements symbolizing the surreal cover art", "animation": "colorShift" }
+]
+
+### Define custom function to load and render all elements onto the canvas
+function loadElements(elementsArray):
+    for each element in elementsArray:
+        renderElement(element)            
+
+### Define custom function to assign interactivity and animations to each element
+function addElementInteractivity(elementsArray):
+    for each element in elementsArray:
+        addEventListener(element, "click"):
+            handleClickEvent(element)      
+
+        addTimeBasedAnimation(element)   
+
+### Custom function to handle click events, displaying pop-ups and triggering animations
+function handleClickEvent(element):
+    if element has assigned info:
+        displayInfoPopup(element)         
+    if element has assigned animation:
+        triggerAnimation(element)         
+
+### Define function to display pop-up with element-specific information
+function displayInfoPopup(element):
+    createPopup(element.info)             
+    setPopupPosition(element)       
+    allowClosePopup()                    
+
+### Define function to trigger animations based on element type
+function triggerAnimation(element):
+    if element.animation == "float":
+        animate element floating upwards
+    elif element.animation == "spin":
+        animate element spinning
+    elif element.animation == "colorShift":
+        apply gradual color shift animation to element
+
+### Custom function to apply time-based animations
+function addTimeBasedAnimation(element):
+    if element.animation == "float":
+        apply subtle floating movement
+    elif element.animation == "colorShift":
+        apply continuous color shift
+
+### Initialize project by loading elements and setting up interactivity
+function initializeProject():
+    loadElements(coverElements)            
+    addElementInteractivity(coverElements) 
+
+### Main loop to update animations and check for user interactions
+while project is active:
+    updateCanvas()                         
+    checkForUserInteractions()            
+
+### End project and clean up resources when user exits
+function endProject():
+    clearCanvas()                         
+    releaseResources()                     
+
+### Start project
+initializeProject()
+
+## Pseudo-code Explanation
+
+### 1. initializeCanvas():- 
+Purpose: Sets up the main canvas where all visual elements will be displayed.
+Function: Prepares the display area for adding interactive elements, animations, and user interactions.
+
+### 2. coverElements Array:-
+Purpose: Stores all interactive elements as objects, each containing properties (like name, info, and animation type) that define how each element behaves.
+Function: Provides an organized structure to store each element’s details, allowing easy access to specific information and behaviors. This array will be looped through to apply animations and interactivity.
+
+### 3. loadElements(elementsArray) Function:-
+Purpose: Renders each element from coverElements onto the canvas.
+Function: Loops through elementsArray (the coverElements array), calling renderElement(element) for each element to place it visually on the canvas.
+
+### 4. addElementInteractivity(elementsArray) Function:-
+Purpose: Adds interactivity (click events) and time-based animations to each element.
+Function: Iterates over each element in elementsArray, assigning event listeners and calling functions to trigger animations and pop-ups upon user interaction.
+
+### 5. addEventListener(element, "click")
+Purpose: Listens for a user’s click on each element and triggers specific functions in response.
+Function: Calls handleClickEvent(element) when an element is clicked, which handles animations and displays information pop-ups.
+
+###6. handleClickEvent(element) Function
+Purpose: Manages the actions that occur when an element is clicked.
+Function:Checks if the clicked element has assigned information (with an if statement).
+If true, calls displayInfoPopup(element) to show information about the element in a pop-up.
+Checks the element’s assigned animation type and, if available, triggers triggerAnimation(element) to initiate the element’s specific animation.
+
+### 7. displayInfoPopup(element) Function
+Purpose: Displays a pop-up window with information about the clicked element.
+Function:
+Uses createPopup(element.info) to display the info stored in element.
+Positions the pop-up near the element using setPopupPosition(element) for clarity.
+Allows the user to close the pop-up via allowClosePopup(), creating a cleaner interface.
+
+### 8. createPopup(info) Function
+Purpose: Generates the visual pop-up displaying the information about an element.
+Function: Formats and displays the info parameter (which is the specific information about the clicked element) in a pop-up window.
+
+### 9. setPopupPosition(element) Function
+Purpose: Positions the pop-up near the clicked element for a better user experience.
+Function: Calculates the position of the element on the screen and adjusts the pop-up position to be close by, ensuring it appears contextually related to the element.
+
+### 10. allowClosePopup() Function
+Purpose: Enables users to close the pop-up to avoid clutter.
+Function: Provides a close button (like an “X”) on the pop-up that, when clicked, removes the pop-up from the canvas.
+
+### 11. triggerAnimation(element) Function
+Purpose: Activates specific animations based on the element’s animation property.
+Function:
+Uses if statements to check element.animation and apply the appropriate animation type:
+If animation is “float,” it animates the element floating upwards.
+If animation is “spin,” it spins the element.
+If animation is “colorShift,” it applies a gradual color shift animation.
+
+### 12. addTimeBasedAnimation(element) Function
+Purpose: Applies ongoing animations to elements that should change over time.
+Function: Uses if statements to check each element’s animation type and apply a continuous effect:
+“float” triggers a subtle up-and-down floating effect.
+“colorShift” applies a gentle color change over time.
+
+### 13. initializeProject() Function
+Purpose: Sets up the project by loading elements and adding interactivity.
+Function: Calls loadElements() to place all elements on the canvas and addElementInteractivity() to make them interactive.
+
+### 14. Main while Loop
+Purpose: Keeps the canvas updated, managing both animations and interactions while the project is active.
+Function:
+Continuously calls updateCanvas() to refresh and animate elements.
+Monitors user interactions, such as clicks or hovers, with checkForUserInteractions().
+
+### 15. updateCanvas() Function
+Purpose: Refreshes the canvas to keep animations and visual updates active.
+Function: Updates all ongoing animations and responds to user interactions in real-time.
+
+### 16. checkForUserInteractions() Function
+Purpose: Monitors for user interactions like clicks or hovers.
+Function: Detects when users interact with elements, triggering the appropriate functions (like displaying a pop-up or animation).
+
+### 17. endProject() Function
+Purpose: Cleans up resources and resets states when the project is closed.
+Function: Calls clearCanvas() to remove elements from the display and releaseResources() to free up any allocated memory or files.
+
+### 18. clearCanvas() and releaseResources() Functions
+Purpose: Perform cleanup when the project ends.
+Function:
+clearCanvas() removes all elements and animations from the screen.
+releaseResources() frees up memory or other resources to ensure efficient performance.
+
+### 19. initializeProject() Function Call
+Purpose: Starts the project by loading elements and setting up interactivity.
+Function: The main entry point for running the project, calling functions to initialize the canvas, load elements, and prepare interactions.
+
+
 # MileStone 1
 
 ## 1. What book, album or movie did you choose? What is it about?
