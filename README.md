@@ -25,8 +25,7 @@ function addElementInteractivity(elementsArray):
     for each element in elementsArray:
         addEventListener(element, "click"):
             handleClickEvent(element)      
-
-        addTimeBasedAnimation(element)   
+                 addTimeBasedAnimation(element)   
 
 ### Custom function to handle click events, displaying pop-ups and triggering animations
 function handleClickEvent(element):
