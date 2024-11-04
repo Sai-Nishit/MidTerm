@@ -1,3 +1,24 @@
+# MileStone 3
+### For Milestone 3, I created a website with interactive elements and animations, implementing the features we outlined previously. The site uses a full-screen canvas, set up via the HTML file (index.html), and employs p5.js to manage animations and user interactions, creating an immersive, visually clean experience.
+
+## Key Code Highlights
+### 1. initializeCanvas() :- 
+Sets up a full-screen canvas as the main display area.
+
+### 2. coverElements Array:-
+Stores interactive elements, each with properties like name, info, and animation type.
+
+### 3. loadElements() and addElementInteractivity():-
+Renders elements on the canvas and makes them interactive, adding click events that trigger animations or display information pop-ups.
+
+### 4. Animation Functions (e.g., triggerAnimation() and addTimeBasedAnimation()):-
+Apply animations like floating, spinning, or color shifting.
+
+### 5. updateCanvas() and checkForUserInteractions():-
+Continuously refresh animations and monitor user actions in real-time.
+
+Milestone 3 successfully establishes the website’s core functionality, providing a robust foundation for future enhancements and interactivity.
+
 # MileStone 2
 
 ## what I’ve done this week
@@ -76,15 +97,15 @@ initializeProject()
 
 ## Pseudo-code Explanation (description of the files, classes, objects or arrays you will use)
 
-### 1. initializeCanvas():- 
+### 1. nitializeCanvas() :- 
 Purpose: Sets up the main canvas where all visual elements will be displayed.
-Function: Prepares the display area for adding interactive elements, animations, and user interactions.
+Function: Prepares the display area for adding interactive elements, animations, and user interactions by creating a full-screen canvas and setting the initial background.
 
 ### 2. coverElements Array:-
 Purpose: Stores all interactive elements as objects, each containing properties (like name, info, and animation type) that define how each element behaves.
 Function: Provides an organized structure to store each element’s details, allowing easy access to specific information and behaviors. This array will be looped through to apply animations and interactivity.
 
-### 3. loadElements(elementsArray) Function:-
+### 3.loadElements(elementsArray) :-
 Purpose: Renders each element from coverElements onto the canvas.
 Function: Loops through elementsArray (the coverElements array), calling renderElement(element) for each element to place it visually on the canvas.
 
@@ -96,7 +117,7 @@ Function: Iterates over each element in elementsArray, assigning event listeners
 Purpose: Listens for a user’s click on each element and triggers specific functions in response.
 Function: Calls handleClickEvent(element) when an element is clicked, which handles animations and displays information pop-ups.
 
-###6. handleClickEvent(element) Function
+###6.  handleClickEvent(element) Function
 Purpose: Manages the actions that occur when an element is clicked.
 Function:Checks if the clicked element has assigned information (with an if statement).
 If true, calls displayInfoPopup(element) to show information about the element in a pop-up.
