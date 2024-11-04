@@ -1,4 +1,4 @@
-let backgroundImg, bearImg, bunnyImg, catImg, hat1Img, hat2Img, hat3Img, hat4Img;
+let backgroundImg, bearImg, bunnyImg, catImg;
 let maskImg, mouseImg, pigImg, ring1Img, ring2Img, ring3Img, ring4Img, tigerImg, templeImg;
 
 const baseWidth = 1920;
@@ -63,7 +63,7 @@ function preload() {
   pigImg = loadImage('pig.PNG');
   templeImg = loadImage('temple.png');
   ring1Img = loadImage('ring1.PNG');
-  ring2Img = loadImage('ring.PNG');
+  ring2Img = loadImage('ring2.PNG');
   ring3Img = loadImage('ring3.PNG');
   ring4Img = loadImage('ring4.PNG');
   tigerImg = loadImage('tiger.PNG');
