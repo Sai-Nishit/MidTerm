@@ -58,16 +58,12 @@ function preload() {
   bearImg = loadImage('bear.png');
   bunnyImg = loadImage('buny.PNG');
   catImg = loadImage('cat.PNG');
-  hat1Img = loadImage('hat1.PNG');
-  hat2Img = loadImage('hat2.PNG');
-  hat3Img = loadImage('hat3.PNG');
-  hat4Img = loadImage('hat4.PNG');
   maskImg = loadImage('mask.PNG');
   mouseImg = loadImage('mouse.PNG');
   pigImg = loadImage('pig.PNG');
   templeImg = loadImage('temple.png');
   ring1Img = loadImage('ring1.PNG');
-  ring2Img = loadImage('ring2.PNG');
+  ring2Img = loadImage('ring.PNG');
   ring3Img = loadImage('ring3.PNG');
   ring4Img = loadImage('ring4.PNG');
   tigerImg = loadImage('tiger.PNG');
